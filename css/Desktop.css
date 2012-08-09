@@ -1,0 +1,303 @@
+@font-face {
+	font-family: 'MyriadProLightRegular';
+	src: url('../fonts/myriadpro-light-webfont.eot');
+	src: url('../fonts/myriadpro-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriadpro-light-webfont.woff') format('woff'), url('../fonts/myriadpro-light-webfont.ttf') format('truetype'), url('../fonts/myriadpro-light-webfont.svg#MyriadProLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('../fonts/myriadpro-bold-webfont.eot');
+	src: url('../fonts/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriadpro-bold-webfont.woff') format('woff'), url('../fonts/myriadpro-bold-webfont.ttf') format('truetype'), url('../fonts/myriadpro-bold-webfont.svg#MyriadProBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadWebProRegular';
+	src: url('../fonts/myriad_web_pro-webfont.eot');
+	src: url('../fonts/myriad_web_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriad_web_pro-webfont.woff') format('woff'), url('../fonts/myriad_web_pro-webfont.ttf') format('truetype'), url('../fonts/myriad_web_pro-webfont.svg#MyriadWebProRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadProSemiBold';
+	src: url('../fonts/myriadpro-semibold-webfont.eot');
+	src: url('../fonts/myriadpro-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriadpro-semibold-webfont.woff') format('woff'), url('../fonts/myriadpro-semibold-webfont.ttf') format('truetype'), url('../fonts/myriadpro-semibold-webfont.svg#MyriadProLightBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ @media screen and (min-width: 400px) and (max-width: 700px) {
+ body {
+ font:normal 12px "MyriadWebProRegular";
+ color:#111111;
+ margin:0px;
+ padding:0px;
+ background-color:#FF0000;
+ }
+
+ }
+ @media screen and (min-width: 700px) and (max-width: 1600px) {
+ body {
+ font:normal 12px "MyriadWebProRegular";
+ color:#111111;
+ margin:0px;
+ padding:0px;
+ }
+
+ }
+ */
+
+body {
+	font: normal 12px "MyriadWebProRegular";
+	color: #111111;
+	margin: 0px;
+	padding: 0px;
+}
+td, div, p, input, select, textarea, span {
+	font: normal 12px "MyriadWebProRegular";
+	color: #111111;
+}
+td, div, p {
+	line-height: 17px;
+}
+img {
+	border: 0px;
+}
+a:link, a:visited, a:active {
+	text-decoration: underline;
+	color: #0153bc;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+.header, .footer, .content {
+	width: 800px;
+	margin: 0px auto;
+}
+.download {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 206px;
+	height: 167px;
+}
+.logo {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.imageRoller {
+	padding-bottom: 30px;
+}
+.largeTitle {
+	font: normal 16px "MyriadWebProRegular";
+	padding-bottom: 18px;
+	font-size: 22px;
+}
+
+.largeTitleRed {
+	font: normal 22px "MyriadWebProRegular";
+	padding-bottom: 18px;
+	color: #d50607;
+}
+.meduimText {
+	font: normal 16px "MyriadProLightRegular" !important;
+	line-height: 22px !important;
+}
+.largeText {
+	font: normal 20px "MyriadProLightRegular" !important;
+	line-height: 25px;
+}
+.lightColor {
+	color: #555555;
+	font-family: "MyriadProLightRegular" !important;
+}
+.redColorText {
+	color: #d50607;
+	font-size: inherit;
+	font-family: "MyriadProLightRegular" !important;
+}
+.boldText {
+	font-family: "MyriadWebProRegular";
+	font-size: inherit;
+}
+.roundedBox {
+	background-color: #efefef;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 18px;
+}
+.rightPanel {
+	padding-left: 6px;
+}
+.leftPanel {
+	padding-right: 45px;
+}
+.redTtile {
+	font: normal 16px "MyriadProBold";
+	color: #d40000;
+}
+
+a.more:link, a.more:visited, a.more:active {
+	color: #d40000;
+	text-decoration: none;
+	background-image: url(../images/bllet.png);
+	background-repeat: no-repeat;
+	font-family: "MyriadWebProRegular" !important;
+	display: none;
+	background-position: 0px 6px;
+	padding-left: 12px;
+	font-size: 12px !important;
+	margin-top: 4px;
+}
+
+a.more:hover {
+	color: #333333;
+	text-decoration: none;
+	background-image: url(../images/bllet.png);
+	background-repeat: no-repeat;
+	font-family: "MyriadWebProRegular";
+	display: none;
+	padding-left: 12px;
+	margin-top: 4px;
+	background-position: 0px 6px;
+}
+
+.panel {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+
+.panel li {
+	list-style: none;
+	width: inherit !important;
+}
+.panel li ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.panel .itemSelectedHeader {
+	padding: 9px 4px 1px 15px;
+	border-top: 1px solid #d3d3d3;
+	color: #ff0000;
+	font-size: 14px;
+	background-color: #FFF9DA;
+	background-image: url(../images/upArrow.jpg);
+	background-repeat: no-repeat;
+	background-position: right 9px;
+	cursor: pointer;
+}
+.panel .header {
+	padding: 0px 4px 1px 4px;
+	border-bottom: 1px solid #d3d3d3;
+	color: #ff0000;
+	font-size: 16px;
+	background-image: url(../images/downArrow.jpg);
+	background-repeat: no-repeat;
+	background-position: right 9px;
+	cursor: pointer;
+}
+.panel .itemSelectedHeader a {
+	text-decoration: none;
+	color: #d50607;
+	font-size: 16px;
+	font-family: "MyriadProLightRegular";
+}
+.panel .header a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	font-family: "MyriadProLightRegular";
+}
+a.clickHeader {
+	display: block;
+	padding: 8px 0px 4px 0px;
+}
+.panel .content {
+	padding: 4px 0px;
+	color: #444444;
+	border-bottom: 1px solid #d3d3d3;
+	display: block;
+	width: inherit !important;
+	font-size: 14px;
+	line-height: 150%;
+	font-family: "MyriadProLightRegular";
+}
+.moreLink {
+	padding: 15px;
+	text-align: right;
+}
+.panel .item .content {
+	display: none;
+}
+
+.topMenu {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 50px;
+}
+.topMenu li {
+	display: inline;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+.topMenu li a {
+	display: block;
+	padding: 3px 5px 3px 15px;
+	text-decoration: none;
+	color: #333333;
+	font-size: 15px;
+	background-image: url(../images/bllet.png);
+	background-repeat: no-repeat;
+	background-position: 4px 9px;
+	margin-left: 25px;
+	background-color: #fff9da;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff5bd;
+}
+.topMenu li a:hover {
+	display: block;
+	padding: 3px 5px 3px 15px;
+	background-position: 4px 9px;
+	text-decoration: none;
+	background-color: #d50607;
+	background-image: url(../images/blletWhite.png);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	font-size: 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #d50607;
+}
+.footer {
+	margin-top: 40px;
+}
+.footerText {
+	color: #686868;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footerRightImage {
+	float: right;
+}
+
+img.floatLeft {
+	float: left;
+	margin: 10px;
+	padding: 1px;
+	border: 1px solid #8DA2C4;
+}
+img.floatRight {
+	float: right;
+	margin: 10px;
+}
