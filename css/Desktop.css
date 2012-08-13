@@ -58,13 +58,24 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-td, div, p, input, select, textarea, span {
+
+
+.list ul li {
+	list-style-image: url(images/bullet.gif);
+	border-bottom: 1px solid #ccc;
+	padding: .2em 0 .2em .5em;
+	font-weight: bold;
+	color: #666; 
+	display: block !important; 
+}
+
+/*td, div, p, input, select, textarea, span {
 	font: normal 12px "MyriadWebProRegular";
 	color: #111111;
 }
 td, div, p {
 	line-height: 17px;
-}
+}*/
 img {
 	border: 0px;
 }
@@ -107,7 +118,7 @@ a:hover {
 	color: #d50607;
 }
 .meduimText {
-	font: normal 16px "MyriadProLightRegular" !important;
+	font: normal 14px "MyriadProLightRegular" !important;
 	line-height: 22px !important;
 }
 .largeText {
@@ -226,12 +237,13 @@ a.clickHeader {
 	border-bottom: 1px solid #d3d3d3;
 	display: block;
 	width: inherit !important;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 150%;
 	font-family: "MyriadProLightRegular";
+	position:relative;
 }
 .moreLink {
-	padding: 15px;
+	padding: 5px;
 	text-align: right;
 }
 .panel .item .content {
@@ -300,4 +312,18 @@ img.floatLeft {
 img.floatRight {
 	float: right;
 	margin: 10px;
+	padding: 1px;
+	border: 1px solid #8DA2C4;
 }
+
+img.rightBottom {
+	position:absolute;
+	bottom:20px;
+	right:20px;
+	margin: 10px;
+	padding: 1px;
+	border: 1px solid #8DA2C4;
+}
+
+
+
