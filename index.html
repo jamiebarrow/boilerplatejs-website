@@ -165,15 +165,15 @@
 
 								<li>
 									<img  class="rightBottom" src="./images/content/ui-component.png" />
-									BoilerplateJS keeps view layer very much open for the developers to mix 
-									and match different UI libraries as required. By default it ships with 
+									BoilerplateJS keeps view layer very much open for the developers to mix
+									and match different UI libraries as required. By default it ships with
 									knockoutJS and jQuery, that are sufficient for simple UI needs.
 									<br/>
 									<br/>
-									One important class in Boilerplate is 'Boiler.UIPanel'. This class assist 
-									developers to deal with 'V' (of MVX architecture) related aspects such as 
-									template attachment to DOM, CSS attachment to DOM, localization, etc. VX 
-									layers of MVX architecture is open for developers to select between any MVC, 
+									One important class in Boilerplate is 'Boiler.UIPanel'. This class assist
+									developers to deal with 'V' (of MVX architecture) related aspects such as
+									template attachment to DOM, CSS attachment to DOM, localization, etc. VX
+									layers of MVX architecture is open for developers to select between any MVC,
 									MVVM, MVP framework.
 									<br/>
 									<br/>
@@ -204,15 +204,17 @@
 							<ul class="content">
 								<li>
 									<img  class="floatLeft" src="./images/content/event-mediation.png" height="180px"/>
-									<br/><br/>
-									Architecture of BoilerplateJS suggests every UI component to be self contained 
-									and loosely coupled. But what if one component require interactions with another? Rather 
-									than being tightly coupled, we recommend event based pub-sub mechanism for such communication 
-									needs. 'Boiler.Context' class exposes pair of mediating methods listen &amp; notify that enables 
+									<br/>
+									<br/>
+									Architecture of BoilerplateJS suggests every UI component to be self contained
+									and loosely coupled. But what if one component require interactions with another? Rather
+									than being tightly coupled, we recommend event based pub-sub mechanism for such communication
+									needs. 'Boiler.Context' class exposes pair of mediating methods listen &amp; notify that enables
 									components to interact.
-									<br/><br/>
-									All contexts instances in the same context hierachy, share a single mediator. This means 
-									UI components in a particular context hierachy are able to communicate, although they are 
+									<br/>
+									<br/>
+									All contexts instances in the same context hierachy, share a single mediator. This means
+									UI components in a particular context hierachy are able to communicate, although they are
 									not a part of the same context.
 
 									<div class="moreLink">
@@ -220,7 +222,7 @@
 									</div>
 								</li>
 							</ul>
-						</li>						
+						</li>
 						<li class="header">
 							<a href="#" class="clickHeader"> - I'm building a single page app. What about bookmarking and browser history?</a>
 							<ul class="content">
@@ -267,6 +269,29 @@
 									user's browser.
 									<div class="moreLink">
 										<a href="https://github.com/ectechno/nutcocojs/wiki/How-should-I-provide-native-language-support-for-my-users%3F" class="more" target="_blank">Read More</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+
+						<li class="header">
+							<a href="#" class="clickHeader"> - How can I maintain a documentation for my product?</a>
+							<ul class="content">
+								<li>
+									<img  class="floatLeft" src="./images/content/annotated-method.png" border="1" height="99px" />
+									<p>
+										Having documentation for your product adds maintainability and makes debugging processes easier. But when the source is modified with the changing requirements developers have to put an extra effort on maintaining the documentation
+										<br/>
+										<br/>
+										BoilerplateJS ships YUIDoc as a 3rd party tool for document generation using the comments in the source
+										<br/>
+										<br/>
+										All you have to do is to comment the source code using few annotations. Then run the batch file document.bat (On linux run ‘document.sh’) under the documentation directory. This will generate the documentation as a html web page which is ready to publish
+
+									</p>
+
+									<div class="moreLink">
+										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/I'm-writing-durable-product-code.-Can-I-UnitTest-my-javascript-code%3F" target="_blank">Read More</a>
 									</div>
 								</li>
 							</ul>
