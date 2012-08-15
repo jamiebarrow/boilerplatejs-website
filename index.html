@@ -76,7 +76,7 @@
 					</div>
 					<ul id="accordion" class="panel">
 						<li class="itemSelectedHeader" >
-							<a href="#" class="clickHeader"> - How should I organize my solution structure?</a>
+							<a href="#" class="clickHeader"> Solution Structure - How should I organize my solution structure?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatLeft" src="./images/content/solution-structure.png" border="1" height="190px" />
@@ -102,7 +102,7 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> - Can I do modular object oriented programming with plain javascript?</a>
+							<a href="#" class="clickHeader"> Object Orientation - Can I do modular object oriented programming with plain javascript?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatRight" src="./images/content/oo-in-javascripts.png" />
@@ -132,7 +132,7 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> - My product suite has multiple product modules, how should I go about it?</a>
+							<a href="#" class="clickHeader"> Product Modules - My product suite has multiple product modules, how should I go about it?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatLeft" src="./images/content/product-suite.png" height="300px" />
@@ -160,7 +160,7 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> - UI layer is going to be complex in my product. How should I design my UI components?</a>
+							<a href="#" class="clickHeader"> UI Components - UI layer is going to be complex in my product. How should I design my UI components?</a>
 							<ul class="content">
 
 								<li>
@@ -188,9 +188,7 @@
 									<br/>
 									- viewmodel.js : code behind incase you use MVVM
 									<br/>
-									- component.js : the file that encapsulate all above files
-									<br/>
-									- route-handler.js : code that manage lifecycle of the component
+									- component.js : encapsulate and manage the lifecycle of the component
 									<br/>
 
 									<div class="moreLink">
@@ -200,7 +198,7 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> - How should my loosely coupled modules interact with each other?</a>
+							<a href="#" class="clickHeader">Event Messaging - How should my loosely coupled modules interact with each other?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatLeft" src="./images/content/event-mediation.png" height="180px"/>
@@ -224,14 +222,24 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> - I'm building a single page app. What about bookmarking and browser history?</a>
+							<a href="#" class="clickHeader"> Routing - I'm building a single page app. What about bookmarking and browser history?</a>
 							<ul class="content">
 								<li>
-									It is a very common requirement that specific business information and
-									functionality be directly accessible via bookmarked URLs. It might not
-									be trivial to add bookmarking and history support later, unless planed
-									by the initial architecture. In addition, it is important that the
-									browser 'back/forward' buttons behaving natural to your users.
+									<img  class="floatRight" src="./images/content/url-routing.png" />
+
+									It is a common requirement to have your functionality be directly accessible via bookmarked URLs. 
+									But remember, it might not be trivial to support bookmarking, history, back/forward buttons 
+									later, unless planed in the initial architecture. 
+									<br/><br/>
+									BoilerplateJS’s module structure inherently supports bookmarking and browser history 
+									thanks to its UrlController class. Your components can register themselves to a URL 
+									controller by specifying the URL pattern, on which they want to be activated upon. 
+									<br/><br/>
+									In addition to UrlController, BoilerplateJS also provides the option of activating 
+									components within specific DOM elements using the DomController. This is very 
+									relavant when you want your components to be embedded in a third-party website 
+									or a portal, just as Facebook-Like box may do.
+
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/I'm-building-a-single-page-app.-What-about-bookmarking-and-browser--history%3F" target="_blank">Read More</a>
 									</div>
@@ -240,15 +248,18 @@
 						</li>
 
 						<li class="header">
-							<a href="#" class="clickHeader"> - I'm writing durable product code. Can I UnitTest my javascript code?</a>
+							<a href="#" class="clickHeader"> Unit Testing - I'm writing durable product code. Can I UnitTest my javascript code?</a>
 							<ul class="content">
 								<li>
-									Test driven development encourages you to write less coupled, cohesive
-									code that is easy to change. BoilerplateJS comes with an ready to use
-									integrated UnitTesting facilities. All core classes in the platform are
-									fully covered with unit tests. Under existing unit tests, you will find
-									best practices of mock, stub, assert, etc. which you may adapt in
-									covering your own code.
+									<img  class="floatRight" src="./images/content/unit-testing.png" height="170px" />
+									<br/>
+									Test driven development encourages you to write less coupled, cohesive code that 
+									is easy to change. BoilerplateJS comes with a ready to use integrated Unit Testing facilities 
+									using QUnit. 
+									<br/><br/>
+									We have taken the initiative and most of the core classes in the platform are 
+									fully covered with unit tests. Our test suite allows you to isolate modules, mock dependencies 
+									and integrate other unit testing best practices such as stubbing and assertions.
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/I'm-writing-durable-product-code.-Can-I-UnitTest-my-javascript-code%3F" target="_blank">Read More</a>
 									</div>
@@ -257,16 +268,14 @@
 						</li>
 
 						<li class="header">
-							<a href="#" class="clickHeader"> - How should I provide native language support for my users?</a>
+							<a href="#" class="clickHeader"> Localization - How should I provide native language support for my users?</a>
 							<ul class="content">
 								<li>
-									In javascript based single page applications, UI rendering completely
-									happens on the browser. Therefore the localization of UI components
-									should also happen on the browser. BoilerplateJS let's you define
-									localization resources per UI component, enabling you to structure and
-									manage resource files effectively. It is even possible to change the
-									css styles, images, etc. according to the language preferences of
-									user's browser.
+									<img  class="floatLeft" src="./images/content/localizations.png" width="250px" />
+									In JavaScript based single page applications, UI rendering completely happens on the browser. 
+									Therefore it makes very much sense that the localization of UI components should also happens on the 
+									browser. BoilerplateJS lets you define localization resources per UI component, enabling you to 
+									structure and manage resource files effectively. 
 									<div class="moreLink">
 										<a href="https://github.com/ectechno/nutcocojs/wiki/How-should-I-provide-native-language-support-for-my-users%3F" class="more" target="_blank">Read More</a>
 									</div>
@@ -275,7 +284,7 @@
 						</li>
 
 						<li class="header">
-							<a href="#" class="clickHeader"> - How can I maintain a documentation for my product?</a>
+							<a href="#" class="clickHeader"> Document Generation - How can I maintain a documentation for my product?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatLeft" src="./images/content/annotated-method.png" border="1" height="99px" />
@@ -298,20 +307,20 @@
 						</li>
 						
 						<li class="header">
-							<a href="#" class="clickHeader"> - How can I optimize my code ready for deployment?</a>
+							<a href="#" class="clickHeader"> Optimized Deployment - How can I optimize my code ready for deployment?</a>
 							<ul class="content">
 								<li>
+									<img  class="floatRight" src="./images/content/optimizer.png" style="height:150px"/>
 									Javascript can make your application dynamic and active however large number
 									 of files and file sizes being downloaded into the browser can lead to pages
 									  becoming unresponsive. To avoid this from taking place BoilerplateJS provides
 									   the RequireJS optimizer as a tool in the framework which will combine related
-									    scripts and minify the javascript code to provide better performance. After
-									     optimization only a single file will be loaded as the application and all
-									      the files will be compressed.
-									<br/><br/>
-									After optimization your code will look like this;
+									    scripts and minify the javascript code to provide better performance. 
+									    <br/><br/>
+									    After optimization only a single file will be loaded as the application and all
+									      the files will be compressed. Your optimized code will look like this:
 									<br/>
-									<img  class="floatBottom" src="./images/content/optimized-code.png" style="height:150px"/>
+									
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/How-should-my-loosely-coupled-modules-interact-with-each-other%3F" target="_blank">Read More</a>
 									</div>
