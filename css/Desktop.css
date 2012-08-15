@@ -118,24 +118,28 @@ a:hover {
 	color: #d50607;
 }
 .meduimText {
+	font: normal 14px "MyriadWebProRegular" !important;
+	line-height: 22px !important;
+}
+.meduimTextLight {
 	font: normal 14px "MyriadProLightRegular" !important;
 	line-height: 22px !important;
 }
 .largeText {
-	font: normal 20px "MyriadProLightRegular" !important;
+	font: normal 20px "MyriadWebProRegular" !important;
 	line-height: 25px;
 }
 .lightColor {
 	color: #555555;
-	font-family: "MyriadProLightRegular" !important;
+	font-family: "MyriadWebProRegular" !important;
 }
 .redColorText {
 	color: #d50607;
 	font-size: inherit;
-	font-family: "MyriadProLightRegular" !important;
+	font-family: "MyriadWebProRegular" !important;
 }
 .boldText {
-	font-family: "MyriadWebProRegular";
+	font-family: "MyriadProSemiBold";
 	font-size: inherit;
 }
 .roundedBox {
@@ -215,17 +219,21 @@ a.more:hover {
 	background-position: right 9px;
 	cursor: pointer;
 }
+
+.emp {
+	font: 14px "MyriadProBold";
+}
 .panel .itemSelectedHeader a {
 	text-decoration: none;
 	color: #d50607;
-	font-size: 16px;
-	font-family: "MyriadProLightRegular";
+	font-size: 14px;
+	font-family: "MyriadWebProRegular";
 }
 .panel .header a {
 	text-decoration: none;
 	color: #000000;
 	font-size: 14px;
-	font-family: "MyriadProLightRegular";
+	font-family: "MyriadWebProRegular";
 }
 a.clickHeader {
 	display: block;
@@ -239,7 +247,7 @@ a.clickHeader {
 	width: inherit !important;
 	font-size: 13px;
 	line-height: 150%;
-	font-family: "MyriadProLightRegular";
+	font-family: "MyriadWebProRegular";
 	position:relative;
 }
 .moreLink {
