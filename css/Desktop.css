@@ -260,8 +260,9 @@ a.clickHeader {
 
 .topMenu {
 	padding: 0px;
-	margin: 0px;
+	margin-left: 200px;
 	margin-top: 50px;
+	
 }
 .topMenu li {
 	display: inline;
