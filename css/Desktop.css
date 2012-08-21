@@ -57,6 +57,7 @@ body {
 	color: #111111;
 	margin: 0px;
 	padding: 0px;
+	border-top:5px solid #f4231f;
 }
 
 
@@ -89,7 +90,7 @@ a:hover {
 }
 
 .header, .footer, .content {
-	width: 800px;
+	width: 710px;
 	margin: 0px auto;
 }
 .download {
@@ -107,8 +108,8 @@ a:hover {
 	padding-bottom: 30px;
 }
 .largeTitle {
-	font: normal 16px "MyriadWebProRegular";
-	padding-bottom: 18px;
+	font: bold 18px "Trebuchet MS" !important;
+	padding-bottom: 10px;
 	font-size: 22px;
 }
 
@@ -201,6 +202,7 @@ a.more:hover {
 .panel .itemSelectedHeader {
 	padding: 9px 4px 1px 15px;
 	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
 	color: #ff0000;
 	font-size: 14px;
 	background-color: #FFF9DA;
@@ -218,10 +220,12 @@ a.more:hover {
 	background-repeat: no-repeat;
 	background-position: right 9px;
 	cursor: pointer;
+	clear:both;
 }
 
 .emp {
-	font: 14px "MyriadProBold";
+	font:bold 14px "Trebuchet MS";
+	margin-right:7px;
 }
 .panel .itemSelectedHeader a {
 	text-decoration: none;
@@ -242,14 +246,19 @@ a.clickHeader {
 .panel .content {
 	padding: 4px 0px;
 	color: #444444;
-	border-bottom: 1px solid #d3d3d3;
 	display: block;
 	width: inherit !important;
 	font-size: 13px;
 	line-height: 150%;
 	font-family: "MyriadWebProRegular";
 	position:relative;
+	margin:10px 10px 0px 0px;
+	
 }
+.panel .content li{
+	line-height:21px;
+}
+
 .moreLink {
 	padding: 5px;
 	text-align: right;
@@ -260,8 +269,8 @@ a.clickHeader {
 
 .topMenu {
 	padding: 0px;
-	margin-left: 200px;
-	margin-top: 50px;
+	margin-top: 40px;
+	margin-left:240px;
 	
 }
 .topMenu li {
@@ -269,35 +278,24 @@ a.clickHeader {
 	padding: 0px;
 	list-style: none;
 	float: left;
+	color:#c8c8c8;
 }
 .topMenu li a {
-	display: block;
-	padding: 3px 5px 3px 15px;
+	display: inline-block;
 	text-decoration: none;
 	color: #333333;
-	font-size: 15px;
-	background-image: url(../images/bllet.png);
-	background-repeat: no-repeat;
-	background-position: 4px 9px;
-	margin-left: 25px;
-	background-color: #fff9da;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #fff5bd;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 20px;
+
 }
 .topMenu li a:hover {
-	display: block;
-	padding: 3px 5px 3px 15px;
-	background-position: 4px 9px;
+	display: inline-block;
 	text-decoration: none;
-	background-color: #d50607;
-	background-image: url(../images/blletWhite.png);
-	background-repeat: no-repeat;
-	color: #ffffff;
-	font-size: 15px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #d50607;
+	color: #ab110e;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 20px;
 }
 .footer {
 	margin-top: 40px;
@@ -314,14 +312,14 @@ a.clickHeader {
 
 img.floatLeft {
 	float: left;
-	margin: 10px;
-	padding: 1px;
+	margin:0px 15px 10px 0px;
 	border: 1px solid #8DA2C4;
+	padding: 2px;
 }
 img.floatRight {
 	float: right;
-	margin: 10px;
-	padding: 1px;
+	margin:0px 0px 10px 15px;
+	padding: 2px;
 	border: 1px solid #8DA2C4;
 }
 
@@ -342,5 +340,43 @@ img.floatBottom {
 	border: 1px solid #8DA2C4;
 }
 
-
-
+.starButton
+{
+	background-image:url(../images/btnStart.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:-50px;
+	width:103px;
+	height:72px;
+}
+.watchVideosButton
+{
+	background-image:url(../images/btnVideos.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:-50px;
+	width:228px;
+	height:65px;
+}
+.actionButtons img
+{
+	margin-right:10px;
+}
+.actionButtons
+{
+	margin:-5px 0px 40px 0px;
+}
+.introText
+{
+	color:#4b4b4b;
+	font: normal 18px "MyriadWebProRegular";
+}
+.introLargeText
+{
+	font: normal 20px "MyriadWebProRegular";
+	color:#4b4b4b;
+}
+.textSeperator
+{
+	margin-right:10px;
+}

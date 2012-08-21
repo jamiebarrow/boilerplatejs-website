@@ -1,0 +1,1 @@
+define([],function(){var e=function(e){var t=!0,n={};return{load:function(e){_.extend(n,e)},items:function(){return t&&e?_.extend(_.clone(e.items()),n):n},chainSettings:function(e){t=e}}};return e})

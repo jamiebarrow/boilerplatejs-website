@@ -1,0 +1,1 @@
+define(["require","./baseModule/module","./sampleModule1/module","./sampleModule2/module"],function(e){return[e("./baseModule/module"),e("./sampleModule1/module"),e("./sampleModule2/module")]})

@@ -1,0 +1,1 @@
+define([],function(){var e=function(){var e=new PubSub;return{notify:function(t,n){e.publish(t,n)},listen:function(t,n){e.subscribe(t,n)}}};return e})
