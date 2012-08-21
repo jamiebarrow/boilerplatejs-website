@@ -103,6 +103,12 @@ td, th {
 	border-bottom: 1px dotted #ccc;
 	text-align: left; 
 }
+.main-menu ul a, a:visited {
+	color:#AA203B;
+}
+.main-menu li a, a:visited {
+	color:#5E5E5E;
+}
 .main-content{
 	width:75%;
 	padding-left:10px;

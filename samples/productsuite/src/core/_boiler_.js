@@ -1,1 +1,0 @@
-define(["require","./core/context","./core/dom-controller","./core/url-controller","./core/view-template","./core/helpers/_helpers_"],function(e){return{Context:e("./core/context"),DomController:e("./core/dom-controller"),UrlController:e("./core/url-controller"),ViewTemplate:e("./core/view-template"),Helpers:e("./core/helpers/_helpers_")}})

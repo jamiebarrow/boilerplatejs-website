@@ -1,1 +1,0 @@
-define([],function(){var e=function(){this.info=function(e){console&&console.log(e)},this.error=function(e,t){console&&(console.log("ERROR : "+e),console.error(t))}};return e})
