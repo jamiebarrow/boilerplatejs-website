@@ -116,7 +116,7 @@ a:hover {
 .largeTitleRed {
 	font: normal 22px "MyriadWebProRegular";
 	padding-bottom: 18px;
-	color: #d50607;
+	color: #B30203;
 }
 .meduimText {
 	font: normal 14px "MyriadWebProRegular" !important;
@@ -135,7 +135,7 @@ a:hover {
 	font-family: "MyriadWebProRegular" !important;
 }
 .redColorText {
-	color: #d50607;
+	color: #B30203;
 	font-size: inherit;
 	font-family: "MyriadWebProRegular" !important;
 }
@@ -157,7 +157,7 @@ a:hover {
 }
 .redTtile {
 	font: normal 16px "MyriadProBold";
-	color: #d40000;
+	color: #B30203;
 }
 
 a.more:link, a.more:visited, a.more:active {
@@ -379,4 +379,11 @@ img.floatBottom {
 .textSeperator
 {
 	margin-right:10px;
+}
+
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
 }

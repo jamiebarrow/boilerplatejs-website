@@ -52,7 +52,7 @@
 				<div class="leftPanel">
 					<div class="imageRoller"><img src="images/headerImg3.jpg">
 					</div>
-					<div class="starButton"></div>
+					<a href="./samples/productsuite/index.html#sales" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'ViewExample', 'View Boilerplate Generic Example']);"><div class="starButton"></div></a>
 					<div class="actionButtons">
 						<a href="./samples/productsuite/index.html#sales" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'ViewExample', 'View Boilerplate Generic Example']);"><img src="images/btnExample.png" alt="view live example"></a>
 						<a href="https://github.com/ectechno/boilerplatejs" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'AccessCode', 'Access Boilerplate Code']);"><img src="images/btnDownload.png" alt="download the latest code"></a>
@@ -61,15 +61,15 @@
 						What is BoilerplateJS?
 					</div>
 					<div class="meduimText ">
-						We made BoilerplateJS as a <span class="redColorText">reference architecture</span> to take
+						BoilerplateJS is your <span class="redColorText">reference architecture</span> to take
 						the pain out of <span class="redColorText">large scale Javascript</span> development. BoilerplateJS
 						is a collection of <span class="redColorText">product engineering patterns</span>, and some solid
 						integrations of <span class="redColorText">industry-leading Javascript libraries</span>.
 						<br />
 						<br />
-						BoilerplateJS does not reinvent for conserns such as MVC or Routing. It
-						defines the architectural best practices for complex JS development, and demonstrates with sample code. 
-						Use your prefered libraries if you do not like the libraries we ship by default.
+						BoilerplateJS <span class="redColorText">does not reinvent</span> for conserns such as MVC or Routing. It only
+						defines architectural best practices and demonstrates sample code for complex JS development.
+						<span class="redColorText">Use your prefered libraries</span> if you do not like the libraries shiped by default.
 						<br />
 						<br />
 					</div>
@@ -77,6 +77,11 @@
 						Should I use it?
 					</div>
 					<div class="meduimText">
+
+						BoilerplateJS let's you not get vendor locked. Remember, it's just your own code to place the right architecture
+						for integrating your favourite libraries.
+						<br/>
+						<br />
 						With BoilerplateJS we address many of the critical concerns in large-scale javascript development.
 						Have a look below, if these are important concerns to you, then we are a matching community!
 						<br/>
@@ -86,17 +91,20 @@
 						<li class="itemSelectedHeader" >
 							<a href="#" class="clickHeader"> <span class="emp">Solution Structure</span><span class="textSeperator">|</span> How should I organize my solution structure?</a>
 							<ul class="content">
-								<li><img  class="floatLeft" src="./images/content/solution-structure.png" height="230px" /> Large scale javascript development involves many differnt file
-									types such as javascript, css, html, bat, sh, etc. Some of these are your product code and
-									others may be for unit tests or build scripts.
+								<li><img  class="floatLeft" src="./images/content/solution-structure.png" height="230px" />
+									Large scale javascript development involves many differnt file
+									types and formats to deal with. Some of it is your product code and some may be for unit tests, build scripts,
+									thirdparty libs, etc.
 									<br/>
 									<br/>
-									Solution structure complexity may not stop there. In your product code, you need to manage your third-party libraries,
-									reusable classes (just functions in javacripts), differnt product sub-modules, plugins, templates, etc. too.
+
+									Solution structure complexity may not stop there. Your product code needs a structure that
+									makes your development extensible, flexible and modular. In addition, you will need your tools such as
+									for document generation, javascript optimization properly attached to the solution structure.
+									Similarly your unit tests will need be placed with access to the source files and related
+									thirdparty libraries too.
 									<br/>
 									<br/>
-									After being a part of several large scale products BoilerplateJS proposes
-									you a robust structure to manage all your solution files effectivly.
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/How-should-I-organize-my-solution-structure%3F" target="_blank">Read More</a>
 									</div>
@@ -104,7 +112,7 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"> <span class="emp">Dependency Management</span><span class="textSeperator">|</span> I do modular object oriented programming with plain javascript?</a>
+							<a href="#" class="clickHeader"> <span class="emp">Dependency Management</span><span class="textSeperator">|</span> How do I do modular object oriented programming with plain javascript?</a>
 							<ul class="content">
 								<li>
 									<img  class="floatRight" src="./images/content/dependency-management.png" width="400" /> Being a dynamic multi-paradigm language, javascript
@@ -116,12 +124,11 @@
 									asynchronous module definition API (AMD API) allowing unit encapsulation and dependency management.
 									<br/>
 									<br/>
-									BoilerplateJS "example code" demonstrates best practices for familiar OO programming that
-									allow creation of classes containing static, public and private spaces (see the picture - you may play with unit tests too).
+									In addition, BoilerplateJS code demonstrates best practices for familiar OO programming that
+									allow creation of classes containing static, public and private spaces (you will find some
+									unit tests demonstrating use of OO patterns under 'tests' directory). By default Boilerplate uses
+									<a href="http://requirejs.org"> requirejs </a> as the underline AMD loader.
 									<br/>
-									<br/>
-									In contrast, BoilerplateJS "core classes" have deviated from the above pattern, but follow
-									a prototype-based approach for optimum performance.
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/Can-I-do-modular-object-oriented-programming-with-plain-javascript%3F" target="_blank">Read More</a>
 									</div>
@@ -132,22 +139,23 @@
 							<a href="#" class="clickHeader"> <span class="emp">Product Modules </span><span class="textSeperator">|</span> My product suite has multiple product modules, how should I go about it?</a>
 							<ul class="content">
 								<li>
-									<img  class="floatLeft" src="./images/content/product-suite.png" height="300px" /> Building software products is different from building a web-application or a website. Products
-									are commonly a part of a larger product suite (family of products). Each product module may contain
-									sub modules for its different functional areas. Likewise depending on the complexity
-									of the product suite, multiple levels of sub-modularization is not uncommon.
+									<img  class="floatLeft" src="./images/content/product-suite.png" height="300px" />
+									Building software products is different from building a web-application or a website. Products
+									are commonly a part of a larger product suite where Each product module containing
+									sub modules for its different functional areas. Likewise depending on the
+									complexity, multiple levels of sub-modularization is not uncommon.
 									<br/>
 									<br/>
-									'Boiler.Context' is one of the most important classes in BoilerplateJS. A 'Context' represents an isolated
-									and controlled environment for a module (or a sub-module) in the product suite. Each context
-									is sandbox protected (e.g from failures in another context), but also with the ability
-									to interact with other contexts in a controlled manner.
+									'Boiler.Context' is one of the most important classes in BoilerplateJS reference architecture.
+									A 'Context' represents an self contained and controlled facade for all resource needs of
+									a module. Each context is self contained and protected, but also with the ability
+									to interact with other contexts in a controlled manner (e.g. through events).
 									<br/>
 									<br/>
-									Contexts can be associated (nested) in a way to create a parent-child association to
-									form a context tree. This is the most common topology for a product suite where a global context
-									becomes the parent context where product modules own independent child contexts. Associated contexts will
-									posses limited knowledge of each other, for example for inheriting configuration settings
+									Contexts can be nested in a way to create a parent-child association to form a context tree.
+									This is a common topology for product suites where a global context
+									becoming the parent context and product modules owning independent child contexts of their own.
+									Associated contexts will posses limited knowledge of each other, for example for inheriting configuration settings
 									from the parent.
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/My-product-suit-has-multiple-product-modules,-how-should-I-go-about-it%3F" target="_blank">Read More</a>
@@ -160,32 +168,54 @@
 							<ul class="content">
 								<li>
 									<div>
-										BoilerplateJS keeps view layer very much open for the developers to mix
+										<img  class="floatRight" src="./images/content/ui-component.png" />
+										
+										It might be just the UI that makes or break your product in the market.
+										BoilerplateJS keeps view layer open for the developers to mix
 										and match different UI libraries as required. By default it ships with
 										knockoutJS and jQuery, that are sufficient for simple UI needs.
 										<br/>
 										<br/>
-										One important class in Boilerplate is 'Boiler.UIPanel'. This class assist
-										developers to deal with 'V' (of MVX architecture) related aspects such as
-										template attachment to DOM, CSS attachment to DOM, localization, etc. VX
-										layers of MVX architecture is open for developers to select between any MVC,
+										The important UI class in Boilerplate is 'Boiler.ViewTemplate'. This class assist
+										you to deal with 'V' (out of MVx architecture) related aspects such as
+										template attachment to DOM, CSS attachment to DOM, localization, etc. Vx
+										layers of MVx architecture is open for developers to select among any MVC,
 										MVVM, MVP framework.
+										<br/>
+										<br/>
+										BoilerplateJS encourage to make your UI components self contained as much as possible.
+										Following is a typical structure of a BoilerplateJS UI component:
 									</div>
-									<br />
 									<div>
-										<img  class="floatRight" src="./images/content/ui-component.png" /> Following is a typical structure of a see contained UI component:
-										<br/>
-										- nls (folder) : localization resources for the UI component
-										<br/>
-										- style.css : CSS stylesheet for UI component specific styling
-										<br/>
-										- view.html : V of your MV(X) component (an html template)
-										<br/>
-										- viewmodel.js : code behind incase you use MVVM
-										<br/>
-										- component.js : encapsulate and manage the lifecycle of the component
-										<br/>
-										<br/>
+										
+
+										<table class="gridtable">
+											<tr>
+												<td>assets (folder) </td>
+												<td>Contains any assets such as images, animations, etc that are a part of your UI component</td>
+											</tr>
+											<tr>
+												<td>nls (folder)</td>
+												<td>Localization resources for different locales that are needed by your UI component </td>
+											</tr>
+											<tr>
+												<td>style.css</td>
+												<td>Styles that are not a part of the overall theme, but specific to the UI component </td>
+											</tr>
+											<tr>
+												<td>view.html</td>
+												<td>HTML view template for your UI component. Boiler classes will help to attach this to DOM</td>
+											</tr>
+											<tr>
+												<td>viewmodel.js</td>
+												<td>This is the logic/code behind (MVVM here). It could also be controller.js incase of MVC</td>
+											</tr>
+											<tr>
+												<td>component.js</td>
+												<td>Encapsulation of all above. Outside world interacts with the component via this class.</td>
+											</tr>
+										</table>
+
 									</div>
 									<div class="moreLink">
 										<a class="more" href="https://github.com/ectechno/nutcocojs/wiki/UI-layer-is-going-to-be-complex-in-my-product.-How-should-I-design-my--UI-components%3F" target="_blank">Read More</a>
@@ -194,17 +224,18 @@
 							</ul>
 						</li>
 						<li class="header">
-							<a href="#" class="clickHeader"><span class="emp">Event Messaging </span><span class="textSeperator">|</span> How should my loosely coupled modules interact with each other?</a>
+							<a href="#" class="clickHeader"><span class="emp">Event Driven Messaging </span><span class="textSeperator">|</span> How should my loosely coupled components interact?</a>
 							<ul class="content">
 								<li>
-									<img  class="floatLeft" src="./images/content/event-mediation.png" height="180px"/> Architecture of BoilerplateJS suggests every UI component to be self contained
-									and loosely coupled. But what if one component require interactions with another? Rather
-									than being tightly coupled, we recommend event based pub-sub mechanism for such communication
-									needs. 'Boiler.Context' class exposes pair of mediating methods listen &amp; notify that enables
-									components to interact.
+									<img  class="floatLeft" src="./images/content/event-mediation.png" height="180px"/> 
+									Architecture of BoilerplateJS suggests modules and UI components to be self contained
+									and loosely coupled. But in complex applications, it is usual to have some components interacting each other.
+									BoilerplateJS recommend event based pub-sub mechanism for such communication needs. 
+									
 									<br/>
 									<br/>
-									All contexts instances in the same context hierachy, share a single mediator. This means
+									'Boiler.Context' exposes a pair of mediating methods 'listen' &amp; 'notify' that enables
+									components to interact.	All contexts in the same context hierachy share a single mediator. This means
 									UI components in a particular context hierachy are able to communicate, although they are
 									not a part of the same context.
 									<div class="moreLink">
