@@ -90,7 +90,7 @@ a:hover {
 }
 
 .header, .footer, .content {
-	width: 710px;
+	width: 980px;
 	margin: 0px auto;
 }
 .download {
@@ -150,13 +150,13 @@ a:hover {
 	padding: 18px;
 }
 .rightPanel {
-	padding-left: 6px;
+	padding-left: 14px;
 }
 .leftPanel {
 	padding-right: 45px;
 }
 .redTtile {
-	font: normal 16px "MyriadProBold";
+	font: normal 14px "MyriadProRegular";
 	color: #B30203;
 }
 
@@ -270,8 +270,6 @@ a.clickHeader {
 .topMenu {
 	padding: 0px;
 	margin-top: 40px;
-	margin-left:240px;
-	
 }
 .topMenu li {
 	display: inline;
