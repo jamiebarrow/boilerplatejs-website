@@ -1,0 +1,1 @@
+define({stringEndsWith:function(e,t){return e.indexOf(t,e.length-t.length)!==-1},load:function(e,t,n,r){var i=t.toUrl(e);!this.stringEndsWith(e,".js")&&this.stringEndsWith(i,".js")&&(i=i.substring(0,i.length-3)),n(i)}})

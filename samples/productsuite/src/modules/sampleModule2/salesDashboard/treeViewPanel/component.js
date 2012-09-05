@@ -1,0 +1,1 @@
+define(["Boiler","text!./view.html","text!./style.css"],function(e,t,n){var r=function(r){new e.ViewTemplate(r,t,null,n)};return r})

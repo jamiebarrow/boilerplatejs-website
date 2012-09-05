@@ -1,0 +1,1 @@
+define(["Boiler","./settings","./modules/modules"],function(e,t,n){var r=function(){var r=new e.Context;r.addSettings(t),r.loadChildContexts(n)};return r})

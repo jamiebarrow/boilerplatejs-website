@@ -1,0 +1,1 @@
+define(["Boiler","./settings","./employeeList/component","./employeeDetails/component","./salesDashboard/component"],function(e,t,n,r,i){var s=function(s){var o=new e.Context(s);o.addSettings(t);var u=new e.UrlController($(".appcontent"));u.addRoutes({"employee/all":new n(o),"employee/{id}":new r(o),sales:new i(o)}),u.start()};return s})

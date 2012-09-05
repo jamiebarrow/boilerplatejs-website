@@ -1,0 +1,1 @@
+define([],function(){var e=function(e,t){if(t.dataItems.length>0){var n={lines:{show:!0},points:{show:!0},xaxis:{ticks:t.tickLabels}},r=[{label:t.label,data:t.dataItems}];$.plot(e,r,n)}};ko.bindingHandlers.flotChart={init:function(t,n){e(t,n())},update:function(t,n){e(t,n())}}})

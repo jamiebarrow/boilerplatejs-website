@@ -1,0 +1,1 @@
+define(["path!../../../server/"],function(e){return{urls:{departments:e+"departments.txt"}}})

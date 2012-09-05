@@ -1,0 +1,1 @@
+define(["path!../../../server/"],function(e){return{urls:{empimages:e+"{empid}.png",empdetails:e+"{empid}.txt",yearlysales:e+"yearly-sales.txt",employees:e+"employees.txt"}}})

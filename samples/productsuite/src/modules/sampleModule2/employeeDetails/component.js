@@ -1,0 +1,1 @@
+define(["Boiler","text!./view.html","text!./style.css","./viewmodel"],function(e,t,n,r){var i=function(i){var s,o=null;this.activate=function(u,a){o||(s=new r(i,a.id),o=new e.ViewTemplate(u,t,null,n),ko.applyBindings(s,o.getDomElement())),s.setEmployee(a.id),o.show()},this.deactivate=function(){o&&o.hide()}};return i})

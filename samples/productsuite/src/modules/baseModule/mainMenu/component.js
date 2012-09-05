@@ -1,0 +1,1 @@
+define(["require","Boiler","text!./view.html","i18n!./nls/resources","path!./style.css"],function(e,t,n,r,i){var s=function(e){var s=null;return{activate:function(e){s=new t.ViewTemplate(e,n,r),t.ViewTemplate.setStyleLink(i)},deactivate:function(){s&&s.remove()}}};return s})

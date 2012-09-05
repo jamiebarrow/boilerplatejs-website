@@ -1,0 +1,1 @@
+define(["Boiler","./settings","./departments/component","./clickCounter/component"],function(e,t,n,r){var i=function(i){var s=new e.Context(i);s.addSettings(t);var o=new e.UrlController($(".appcontent"));o.addRoutes({"departments/:name:":new n(s),clickcounter:new r(s)}),o.start()};return i})

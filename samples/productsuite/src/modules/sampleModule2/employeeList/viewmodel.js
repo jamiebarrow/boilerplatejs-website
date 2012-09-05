@@ -1,0 +1,1 @@
+define(["Boiler"],function(e){var t=function(t){var n=this;this.salesPersons=ko.observableArray(),this.personClicked=function(t){e.UrlController.goTo("employee/"+t.id)},$.getJSON(t.getSettings().urls.employees,function(e){n.salesPersons(e)})};return t})

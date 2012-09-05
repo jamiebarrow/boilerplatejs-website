@@ -1,0 +1,1 @@
+define(["require","Boiler","text!./view.html"],function(e,t,n){var r=function(e){var r=null;return{activate:function(i){r=new t.ViewTemplate(i,n,null),$("#langEn").click(function(t){e.setLanguage("en")}),$("#langSv").click(function(t){e.setLanguage("sv")}),$("#clearLang").click(function(t){e.clearLanguage()})},deactivate:function(){r&&r.remove()}}};return r})
