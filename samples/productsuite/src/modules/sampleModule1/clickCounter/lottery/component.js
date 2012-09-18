@@ -1,0 +1,1 @@
+define(["Boiler","./viewmodel","text!./view.html","path!./style.css"],function(e,t,n,r){var i=function(i){var s,o=null;this.initialize=function(u){o||(o=new e.ViewTemplate(u,n,null),e.ViewTemplate.setStyleLink(r),s=new t(i),ko.applyBindings(s,o.getDomElement()))}};return i})

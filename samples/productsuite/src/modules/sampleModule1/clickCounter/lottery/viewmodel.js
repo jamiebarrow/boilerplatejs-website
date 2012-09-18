@@ -1,0 +1,1 @@
+define([],function(){var e=function(e){var t=this;this.hasWon=ko.observable(!1),this.luckyNumber=ko.observable(),this.yourNumber=ko.observable(),e.listen("LOTTERY_ACTIVITY",function(e){t.luckyNumber(Math.floor(Math.random()*5)+1),t.yourNumber(e),t.hasWon(t.luckyNumber()===t.yourNumber())})};return e})

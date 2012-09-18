@@ -48,7 +48,7 @@ aside ul {
 }
 aside li {
     list-style: none;
-    padding: 0px 50px;
+    padding: 0px 25px;
     color: #ffffff;
     display: inline;
     float: left;
@@ -70,6 +70,15 @@ aside li a:hover, aside span a:hover {
     font-weight: normal !important;
     color: #999999 !important;
     text-shadow: 1px 1px #000000;
+}
+.text-center {
+	text-align: center;
+	font-size: 12px !important;
+}
+.text-solid {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px; 
 }
 .menu-item {
     padding: 1px 50px 0px 32px;

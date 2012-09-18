@@ -82,7 +82,7 @@ img {
 }
 a:link, a:visited, a:active {
 	text-decoration: underline;
-	color: #0153bc;
+	color: #B30203;
 }
 a:hover {
 	text-decoration: underline;
@@ -149,6 +149,13 @@ a:hover {
 	border-radius: 10px;
 	padding: 18px;
 }
+
+.roundedBoxTwitter {
+	background-color: #efefef;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
 .rightPanel {
 	padding-left: 14px;
 }

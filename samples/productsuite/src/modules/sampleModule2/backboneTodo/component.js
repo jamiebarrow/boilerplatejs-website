@@ -1,0 +1,1 @@
+define(["Boiler","./common","./collections/todos","text!./templates/component.html","./views/app","path!./style/base.css"],function(e,t,n,r,i,s){var o=function(o){var u,a=null;this.activate=function(o,f){u||(u=new e.ViewTemplate(o,r),e.ViewTemplate.setStyleLink(s),a=new i),t.TodoFilter=f.action||"",n.trigger("reset"),u.show()},this.deactivate=function(){u&&u.hide()}};return o})

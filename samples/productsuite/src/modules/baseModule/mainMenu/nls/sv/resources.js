@@ -1,1 +1,1 @@
-define({home:"Hem",productmodulea:"Produkt Modul A",productmoduleb:"Produkt Modul B",departments:"Institutioner",clickcounter:"Klicka Räknare",salesdashboard:"Försäljning Dashboard",employees:"anställda"})
+define({home:"Sammanfattning Page",productmodulea:"Produkt Modul A",productmoduleb:"Produkt Modul B",departments:"Knockout Institutioner",clickcounter:"Klicka Räknare",salesdashboard:"Försäljning Dashboard",employees:"Lista Detalj Paneler",todo:"Backbone TODO"})
