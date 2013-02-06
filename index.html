@@ -9,13 +9,13 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <title>Boilerplate | JavaScript Reference Architecture</title>
-        <link rel="stylesheet" type="text/css" href="css/Desktop.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/Grids.Min.css">
         <script language="javascript" src="js/jquery-1.7.2.min.js"></script>
         <script language="javascript" src="js/main.js"></script>
         <script type="text/javascript">
 			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-33996853-1']);
+			// _gaq.push(['_setAccount', 'UA-33996853-1']);
 			_gaq.push(['_setDomainName', 'boilerplatejs.org']);
 			_gaq.push(['_setAllowLinker', true]);
 			_gaq.push(['_trackPageview']);
@@ -41,56 +41,47 @@
                 <div class="yui3-u-2-3">
                     <ul class="topMenu">
                         <li>
-                            |<a href="https://github.com/ectechno/boilerplatejs" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'AccessCode', 'Access Boilerplate Code']);">FORK US ON github</a>
-                        </li>
-                        <li style="display:none">
-                            |<a href="#">VIEW documentaion</a>
+                            <a href="https://github.com/ectechno/boilerplatejs" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'AccessCode', 'Access Boilerplate Code']);">FORK US ON github</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="content">
+			<div class="hero">
+				<h1><span><span>Boilerplate</span>JS</span> is a reference architecture<br/> for your next large scale JavaScript project.</h1>
+				<ul>
+					<li>Ready-to-use startup code with samples</li>
+					<li>Integrated industry leading JavaScript libraries</li>
+					<li>Patterns for complex JavaScript development</li>
+				</ul>
+				<p>
+					<a href="./samples/productsuite/index.html#sales" class="btn btn-primary" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'ViewExample', 'View Boilerplate Generic Example']);">View Live Examples</a> or  <a href="https://github.com/ectechno/boilerplatejs" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'AccessCode', 'Access Boilerplate Code']);" class="btn">Download Latest</a>
+				</p>
+			</div>
+			
             <div class="yui3-g">
                 <div class="yui3-u-17-24">
                     <div class="leftPanel">
-                        <div class="imageRoller"><img src="images/headerImg3.jpg">
-                        </div>
-                        <a href="./samples/productsuite/index.html#sales" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'ViewExample', 'View Boilerplate Generic Example']);"><div class="starButton"></div></a>
-                        <div class="actionButtons">
-                            <a href="./samples/productsuite/index.html#sales" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'ViewExample', 'View Boilerplate Generic Example']);"><img src="images/btnExample.png" alt="view live example"></a>
-                            <a href="https://github.com/ectechno/boilerplatejs" target="_blank" onClick="_gaq.push(['_trackEvent', 'HomePage', 'AccessCode', 'Access Boilerplate Code']);"><img src="images/btnDownload.png" alt="download the latest code"></a>
-                        </div>
-                        <div class="largeTitle">
+                        <h2>
                             What is BoilerplateJS?
-                        </div>
-                        <div class="meduimText ">
-                            BoilerplateJS provides <span class="redColorText">reference architecture</span> to take
-                            the pain out of <span class="redColorText">large scale JavaScript</span> development. BoilerplateJS
-                            is a collection of <span class="redColorText">product engineering patterns</span>, and some solid
-                            integrations of <span class="redColorText">industry-leading JavaScript libraries.</span>.
-                            <br />
-                            <br />
-                            BoilerplateJS <span class="redColorText">does not reinvent</span> processes for concerns such as MVC or Routing. It only
-                            defines architectural best practices and demonstrates sample code for complex JS development.
-                            <span class="redColorText">Use your prefered libraries</span> if you do not like the libraries shipped by default.
-                            <br />
-                            <br />
-                        </div>
-                        <div class="largeTitle">
+                        </h2>
+                        <p>
+                            BoilerplateJS provides <span class="redColorText">reference architecture</span> to take                             the pain out of <span class="redColorText">large scale JavaScript</span> development. BoilerplateJS is a collection of <span class="redColorText">product engineering patterns</span>, and some solid integrations of <span class="redColorText">industry-leading JavaScript libraries</span>.
+						</p>
+						<p>
+                            BoilerplateJS <span class="redColorText">does not reinvent</span> processes for concerns such as MVC or Routing. It only defines architectural best practices and demonstrates sample code for complex JS development. <span class="redColorText">Use your prefered libraries</span> if you do not like the libraries shipped by default.
+                        </p>
+                        <h2>
                             Should I use it?
-                        </div>
-                        <div class="meduimText">
+                        </h2>
+                        <p>
+							BoilerplateJS helps you avoid getting vendor locked. Remember, it's just placing your own code in the right architecture for integrating your favourite libraries.
+						</p>
+						<p>
+							With BoilerplateJS we address many of the critical concerns in large-scale JavaScript development. Have a look below. If these are important concerns to you, then we are a matching community!
+                        </p>
 
-                            BoilerplateJS helps you avoid getting vendor locked. Remember, it's just placing your own code in the right architecture
-                            for integrating your favourite libraries.
-                            <br/>
-                            <br />
-                            With BoilerplateJS we address many of the critical concerns in large-scale JavaScript development.
-                            Have a look below. If these are important concerns to you, then we are a matching community!
-                            <br/>
-                            <br />
-                        </div>
                         <ul id="accordion" class="panel">
                             <li class="itemSelectedHeader" >
                                 <a href="#" class="clickHeader"> <span class="emp">Solution Structure</span><span class="textSeperator">|</span> How should I organize my solution structure?</a>
@@ -343,99 +334,73 @@
                                 </ul>
                             </li>
                         </ul>
-                        <br />
-                        <br />
-                        <br />
-                        <div class="largeTitle">
+                        <h2>
                             This looks great... but what about knockoutjs and backbonejs?
-                        </div>
-                        <div class="meduimText ">
+                        </h2>
+                        <p>
                             BoilerplateJS does <span class="redColorText" >NOT reinvent your wheels</span>!!!
-                            <br />
-                            <br />
+						</p>
+						<p>
                             We are NOT attempting to replace
                             any of the established libraries that you already use and love. What BoilerplateJS provides is
                             a reference architecture that demonstrates the best practices for integrating your libraries for large scale
                             product development.
-                            <br />
-                            <br />
-                            Of course, we ship a few libraries by default (for example
-                            <a href='http://knockoutjs.com'>knockoutjs</a>, <a href='http://requirejs.org'>requirejs</a>
-                            <a href='http://millermedeiros.github.com/crossroads.js/'>crossroadsjs</a> &amp; <a href='http://docs.jquery.com/QUnit'>qunit</a>)
-                            but if you do not like any of those <span class="redColorText" >you can replace them with your favourite library</span>. As proof, due to  popular demand,
-                            we have incorporated (from v0.2rc) <a href="http://boilerplatejs.org/samples/productsuite/index.html#todo" target="_blank"> an exmaple of backbonejs </a>
-                            side-by-side with knockoutjs for creating UI components.
-                            <br />
-                            <br />
-                            But on the otherhand, be mindful that an MVC or MVVM library alone does not define sufficient architecture for large scale
-                            JavaScript development. That's exactly what we address with BoilerplateJS.
-
-                            <br />
-                            <br />
-                            <br />
-                        </div>
-                        <div class="largeTitle">
+						</p>
+						<p>
+                            Of course, we ship a few libraries by default (for example <a href='http://knockoutjs.com'>knockoutjs</a>, <a href='http://requirejs.org'>requirejs</a> <a href='http://millermedeiros.github.com/crossroads.js/'>crossroadsjs</a> &amp; <a href='http://docs.jquery.com/QUnit'>qunit</a>) but if you do not like any of those <span class="redColorText" >you can replace them with your favourite library</span>. As proof, due to  popular demand, we have incorporated (from v0.2rc) <a href="http://boilerplatejs.org/samples/productsuite/index.html#todo" target="_blank"> an exmaple of backbonejs </a> side-by-side with knockoutjs for creating UI components.
+						</p>
+						<p>
+                            But on the otherhand, be mindful that an MVC or MVVM library alone does not define sufficient architecture for large scale JavaScript development. That's exactly what we address with BoilerplateJS.
+                        </p>
+                        <h2>
                             Where is the community?
-                        </div>
-                        <div class="meduimText ">
+                        </h2>
+                        <p>
                             The BoilerplateJS community is highly active on <span class="redColorText" ><a href='http://stackoverflow.com/'>stackoverflow</a></span> .
                             We encourage you to <a href='http://stackoverflow.com/questions/ask'> ask</a> your questions there
                             with the relavant tags (e.g. boilerplatejs, javascript). If you use the tag 'boilerplatejs', generally
                             questions are answered within a few hours.
-                            <br />
-                            <br />
-                            Incase you need direct contact with the BoilerplateJS team (e.g. for reporting
-                            an issue), you may use the github <a href='https://github.com/ectechno/boilerplatejs/issues'> issues</a> page.
-                            <br />
-                            <br />
-                            We really like to hear from you regarding your BoilerplateJS experiences. Feel free to use #boilerplatejs on Twitter.
-                            If you plan to join BoilerplateJS as a contributer please contact us through github.
-                            <br />
-                            <br />
-                            <br />
-                        </div>
-                        <div class="largeTitle">
+						</p>
+						<p>
+                            Incase you need direct contact with the BoilerplateJS team (e.g. for reporting an issue), you may use the github <a href='https://github.com/ectechno/boilerplatejs/issues'> issues</a> page.
+						</p>
+						<p>
+                            We really like to hear from you regarding your BoilerplateJS experiences. Feel free to use #boilerplatejs on Twitter. If you plan to join BoilerplateJS as a contributer please contact us through github.
+                        </p>
+                        <h2>
                             Frequently asked questions
-                                                    <div class="meduimText ">
-                            <ul>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12545476/boilerplatejs-recommended-way-to-handle-authorization-and-authentication" class="clickHeader"> How to handle authorization and authentication?</a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12726412/how-to-pass-data-between-view-to-another-viewmodel" class="clickHeader">How to pass data between viewmodels? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://blog.hasith.net/2012/11/how-much-multi-page-single-page.html" class="clickHeader"> Should I be fully singlepaged in my application? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12517137/development-process-using-boilerplatejs" class="clickHeader"> Development process involving web designers and JS developers? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12455785/adding-external-css-file-to-a-boilerplatejs-project" class="clickHeader">Adding external CSS file to a BoilerplateJS project? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12396915/is-there-any-way-to-inter-communicate-with-modules-in-boilerplatejs" class="clickHeader">Event based intercommunication between modules? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/12366823/in-boilerplatejs-browser-is-loading-all-the-scripts-in-other-modules-regardles" class="clickHeader"> Can I lazyload scripts based on the module user works with? </a>
-                                </li>
-                                <li class="header">
-                                    <a target="_blank" href="http://stackoverflow.com/questions/13127153/sharing-datasources-between-components-on-a-boilerplatejs-app" class="clickHeader"> Sharing data between components without reloading from server? </a>
-                                </li>                                                                                                                                                                
-                            </ul>
-                        </div>
-                        </div>
 
-                        <br />
-                        <br />
+                        </h2>
+						<ul>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12545476/boilerplatejs-recommended-way-to-handle-authorization-and-authentication" class="clickHeader"> How to handle authorization and authentication?</a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12726412/how-to-pass-data-between-view-to-another-viewmodel" class="clickHeader">How to pass data between viewmodels? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://blog.hasith.net/2012/11/how-much-multi-page-single-page.html" class="clickHeader"> Should I be fully singlepaged in my application? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12517137/development-process-using-boilerplatejs" class="clickHeader"> Development process involving web designers and JS developers? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12455785/adding-external-css-file-to-a-boilerplatejs-project" class="clickHeader">Adding external CSS file to a BoilerplateJS project? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12396915/is-there-any-way-to-inter-communicate-with-modules-in-boilerplatejs" class="clickHeader">Event based intercommunication between modules? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/12366823/in-boilerplatejs-browser-is-loading-all-the-scripts-in-other-modules-regardles" class="clickHeader"> Can I lazyload scripts based on the module user works with? </a>
+                            </li>
+                            <li class="header">
+                                <a target="_blank" href="http://stackoverflow.com/questions/13127153/sharing-datasources-between-components-on-a-boilerplatejs-app" class="clickHeader"> Sharing data between components without reloading from server? </a>
+                            </li>                                                                                                                                                                
+                        </ul>
 
                     </div>
                 </div>
                 <div class="yui3-u-7-24">
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <div class="watchVideosButton"></div>
                     <div class="rightPanel" >
                         <div class="roundedBox">
