@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "boilerplatejs-website",
+  "version": "0.1.0",
+  "description": "BoilerplateJS documentation website",
+  "author": "James Barrow",
+  "keywords": [
+    "boilerplatejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiebarrow/boilerplatejs-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamiebarrow/boilerplatejs-website/issues"
+  },
+  "homepage": "https://github.com/jamiebarrow/boilerplatejs-website#readme",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
