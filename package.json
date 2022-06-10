@@ -7,6 +7,7 @@
   "keywords": [
     "boilerplatejs"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamiebarrow/boilerplatejs-website.git"
@@ -15,7 +16,6 @@
     "url": "https://github.com/jamiebarrow/boilerplatejs-website/issues"
   },
   "homepage": "https://github.com/jamiebarrow/boilerplatejs-website#readme",
-  "license": "MIT",
   "scripts": {
     "start": "http-server -o"
   },
