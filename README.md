@@ -11,7 +11,7 @@ https://github.com/jamiebarrow/boilerplatejs
 
 Which is a fork of the original repository:
 
-https://github.com/99x/boilerplatejs)
+https://github.com/99x/boilerplatejs
 
 ## Opening the website ##
 It is best to view the website by loading it in an actual HTTP server.
