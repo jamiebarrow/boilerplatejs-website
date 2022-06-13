@@ -16,8 +16,19 @@ https://github.com/99x/boilerplatejs
 ## Opening the website ##
 It is best to view the website by loading it in an actual HTTP server.
 
-The repository currently makes use of the `http-server` npm package to do this, just clone the repo and run:
+The repository currently makes use of the `http-server` npm package to do this.
 
+Clone the repository:
+```shell
+$ git clone https://github.com/jamiebarrow/boilerplatejs-website
+```
+
+Install packages using `npm ci` command to ensure consistency as the same packages in `package-lock.json` are used:
+```shell
+$ npm ci
+```
+
+Start the http server:
 ```shell
 $ npm start
 ```
